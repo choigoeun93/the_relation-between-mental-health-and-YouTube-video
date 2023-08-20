@@ -1,0 +1,26 @@
+1. 다운받으실 때 request에 헤더를 추가하신 다음 코드를 돌려야 영상을 대량 다운로드 할 수 있습니다.
+header를 추가해주세요.
+[헤더 확인하는 법이 적혀있는 사이트 공유합니다. 
+https://salix97.tistory.com/176
+참고하세요!]
+
+2. 이 방법으로 다운로드 받으면 성인 제한 영상을 다운로드할 수 없습니다.
+저는 3개월에 해당하는 데이터만을 분석하면 되는 상황이었기 때문에 
+해당 영상을 저는 따로 다운로드해서 분석했는데 더 긴 기간을 분석하실 예정이시라면 pytube를 수정하세요.
+
+3. "영상 다운로드하는 서브 코드"는 영상 받는 속도가 느립니다. 
+메인 코드 위주로 사용하시고 서브 코드는 실수로 영상을 삭제했을 때 등 한두개 정도 추가로 영상 다운로드 할 때 등 서브 용도로만 사용하세요.
+
+1. When downloading, you need to add headers to the request and then run the code so that you can download videos in bulk.
+Please add header.
+[Share a site with instructions on how to check headers.
+https://salix97.tistory.com/176
+please refer to this!]
+
+2. If you download in this way, you cannot download adult-restricted videos.
+I was in a situation where I only needed to analyze data for three months.
+I downloaded and analyzed the video separately, but if you plan to analyze a longer period, please modify pytube.
+
+3. "Video download sub code" is slow to receive video.
+Use mainly the main code, and use the sub code only for sub purposes, such as when downloading one or two additional videos, such as when you accidentally delete a video.
+
